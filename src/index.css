@@ -1,0 +1,24 @@
+body {
+  font-family: 'Assistant', sans-serif;
+  font-family: 'Roboto', sans-serif; 
+  width: 100%; max-width: 1024px;
+  margin:  0px;
+}
+
+code {
+  font-family: Roboto;  
+  font-weight: normal;
+  width: 100%; max-width: 1024px;
+
+}
+
+.Logo {
+  background-image: url(./logo.png);
+}
+
+
+nav-logo {
+    height: 200px; 
+    align:  center;
+    margin: 5px;
+}

@@ -1,0 +1,25 @@
+.body {
+  font-family: 'Assistant', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  width: 100%; 
+  margin:  0px;
+}
+
+.main-body {
+  font-family: 'Assistant', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  width: 100%; 
+  margin: 0 ;
+}
+
+#page_wrapper {
+    width: 100%;
+    margin: 0px;
+}
+
+body {
+  font-family: 'Assistant', sans-serif;
+  font-family: 'Roboto', sans-serif; 
+  width: 100%; 
+  margin:  0px;
+}
