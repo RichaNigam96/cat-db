@@ -13,12 +13,14 @@ import AnnualReport from './pages/annual';
 import Teams from './pages/team';
 import Blogs from './pages/blogs';
 import SignUp from './pages/signup';
+import { Authenticator } from '@aws-amplify/ui-react';
+import '@aws-amplify/ui-react/styles.css';
 
 function App() {
-return (
+  return (
   <Router>
   <Navbar />
-  <Routes id="page_wrapper">
+    <Routes id="page_wrapper">
     <Route path='/' element={<Home/>} />
     <Route path='/about' element={<About/>} />
     <Route path='/solutions' element={<Solutions/>} />
@@ -27,8 +29,8 @@ return (
     <Route path='/blogs' element={<Blogs/>} />
     <Route path='/sign-up' element={<SignUp/>} />
   </Routes>
-  </Router>
-);
+    </Router>
+  );
 }
 
 export default App;

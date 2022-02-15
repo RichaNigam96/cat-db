@@ -6,11 +6,11 @@ return (
   style={{
     justifyContent: 'Center',
     alignItems: 'Right',
-    height: '100vh',
-    margin: '10px'
+    margin: '10px',
+    display: 'flex'
   }}
   >  
-  <h2>Welcome to CatDB Demo Website</h2>
+  <h3>Welcome to CatDB Website</h3>  
   </div>
 );
 };
