@@ -14,9 +14,10 @@ return (
   <h2>Annual Report</h2>
   <p>Report on this project are projected below: </p>
   <ol>
-     <li> Create a sample project </li>
-     <li> Hosting it on Amplify </li>
-     <li>  Showing it off lol </li>
+     <li> Create a react app: Done </li>
+     <li> Initialize Github Repository: Done </li>
+     <li> Deploy your app with AWS Amplify: Done </li>
+     <li> Automatically Deploy Changes: Pending </li>
   </ol>
   <p>Report on cats being cute: <b>Always</b></p>
   <img  position='flex' src={felix} alt="Felix" width="200px" />
